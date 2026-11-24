@@ -1,0 +1,21 @@
+﻿# Raw public omics files & large intermediates
+data/raw/
+*.idat
+*.idat.gz
+*.rds
+*.RDS
+*.loom
+*.h5
+*.h5ad
+*.bam
+*.bai
+*.fastq.gz
+
+# Local virtual environments & OS caches
+.venv/
+venv/
+__pycache__/
+.Rhistory
+.RData
+.DS_Store
+Thumbs.db
